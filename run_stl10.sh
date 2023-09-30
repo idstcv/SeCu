@@ -1,6 +1,6 @@
 gpu=$1;
 log='secu_size_stl10_stage_1';
-CUDA_VISIBLE_DEVICES=${gpu} python main_final.py \
+CUDA_VISIBLE_DEVICES=${gpu} python main.py \
     -j 8 \
     -p 100 \
     --epochs 801 \
